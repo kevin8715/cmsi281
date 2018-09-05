@@ -1,0 +1,14 @@
+
+Classwork01 Evaluation
+======================
+
+Nice job on this assignment, with a couple of comments:
+
+There is no file header.  You should have at least something!
+
+You don't seem to have indented anything in your code.  This is
+not good coding practice.  Pick a consistent number of spaces
+[remember, NO TABS] and use that for every indent.
+
+You get 95% out of 100% on this.
+
