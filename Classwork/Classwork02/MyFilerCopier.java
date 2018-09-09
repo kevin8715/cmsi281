@@ -22,6 +22,6 @@ public class MyFilerCopier {
 	Scanner myInput = new Scanner (System.in);
 	String inputName = myInput.nextLine();
 	SourceFile input = new SourceFile(inputName);
-	TargetFile output = new TargetFile(source.returnContent(), inputName +".copy");
+	TargetFile output = new TargetFile(input.returnContent(), inputName +".copy");
 	}
 }
