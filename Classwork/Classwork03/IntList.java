@@ -1,12 +1,10 @@
  /** ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- * File name  :  SourceFile.java
- * Purpose    : Copies files
+ * File name  :  IntList.java
+ * Purpose    : Create and manage int arrays
  * @author    :  Kevin Solis
- * Date       :  2017-04-19
+ * Date       :  2018-09-13
  * Notes      :  None
  * Warnings   :  None
- *Credits: https://stackoverflow.com/questions/16265693/how-to-use-buffered-reader-in-java
- *Used the above source to figure out how to use BufferedReader and get all the formating correct like the right imports.
 */
  public class IntList implements IntListInterface {
       private int[] theList;
@@ -89,12 +87,18 @@
 
       // we've gotta have this to actually get things to compile
       public boolean insertValueAtIndex( int value, int index ) {
+         checkIndex(index);
          if( size < theList.length ) {
             holeFiller(index);
             theList[index] = value;
             return true;
          } else {
-            // what should we do here, if there's no room?
+           int[] storage = theList;
+           theList = new int[storage.length+STARTING_SIZE];
+           for(int i = 0; i<storage.length; i ++){
+            theList[i] = storage[i];
+           }
+           insertValueAtIndex(value, index);
          }
          return false;
       }
@@ -117,6 +121,7 @@
          System.out.println( list.getValueAtIndex( 0 ) );
          list.insertValueAtIndex(2,2);
          System.out.println( list.getValueAtIndex(2));
+         list.checkIndex(20);
       }
    }
            
