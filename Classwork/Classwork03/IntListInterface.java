@@ -1,12 +1,10 @@
 /** ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- * File name  :  SourceFile.java
- * Purpose    : Copies files
+ * File name  :  IntListInterface.java
+ * Purpose    : Interface for IntList.java
  * @author    :  Kevin Solis
- * Date       :  2017-04-19
+ * Date       :  2018-09-13
  * Notes      :  None
  * Warnings   :  None
- *Credits: https://stackoverflow.com/questions/16265693/how-to-use-buffered-reader-in-java
- *Used the above source to figure out how to use BufferedReader and get all the formating correct like the right imports.
 */   
    public interface IntListInterface {
       int getValueAtIndex( int index );
