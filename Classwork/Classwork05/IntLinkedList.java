@@ -58,7 +58,7 @@
          Iterator finder = getIteratorAt(index);
          Iterator del = getIteratorAt(index - 1);
          Node indexNode = finder.currentNode.next;
-         storage = del.getCurrentInt();
+         storage = finder.getCurrentInt();
          del.currentNode.next = indexNode;
          size--;
          return storage;
