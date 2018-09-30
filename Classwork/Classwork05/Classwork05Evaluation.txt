@@ -1,0 +1,34 @@
+
+Classwork05 Evaluation
+======================
+
+Nice job on this assignment, with a couple of comments:
+
+You didn't change the method names in the Queue class as
+instructed in the directions.  It should have been like
+enqueue/dequeue or insert/remove or something like that.
+This is a queue, not a stack, so the code needs to reflect
+that fact.  Don't forget the test code outputs in that as
+well -- don't say "bottom of the STACK'...
+
+Your test coverage is adequate, but you can ALWAYS do
+more testing to make sure everything is covered.  Don't
+forget to test the error conditions as well!
+
+scores:
+=============================
+IntLinkedList.java
+   compiles                [1.00]
+IntQueue.java
+   changed to Queue name   [1.00]
+   changed to enqueue()    [0.00]
+   changed to dequeue()    [0.00]
+IntQueueTester.java
+   test coverage (3)       [3.00]
+headers(3)                 [3.00]
+code style                 [1.00]
+
+total possible points      11 points
+
+you got 9 out of 11 which is 81.82% which is a B-minus
+
