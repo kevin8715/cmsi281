@@ -1,0 +1,63 @@
+
+Homework03 Evaluation
+======================
+
+Interesting work on this assignment!
+Here are a couple of observations and comments:
+
+You have a compile error in your oddEvenSort.java file at line
+27.  The compiler is barfing on the "curly quotes" in the comment
+on that line.  It makes me wonder if you copied this code from
+somewhere/someone and forgot to change that?  The code appears
+VERY similar to the "ArrayBub.java" file which I saw on a GitHub
+repo of solutions for the book's problem sets...  PLEASE be very
+careful about this....  Also, the coding style is inconsistent
+in this module; be more careful with your indentations!
+
+It would help to add some linefeeds between tests so that the user
+can see what is actually going on.  My version from Kevin's repo
+put out a looooooooooooooooooooooooong line of numbers, and it was
+hard to tell what it was testing and whether it worked.  Try to
+break things up logically by test, and output some prompt text to
+let the user know what is happening.
+
+I REALLY like the including of sound in the Simon game.  It makes
+your version much more like the real thing.  However, the code
+you used to backspace and hide the selections didn't work...
+
+scores:
+=============================
+XXXXX-Sorter.java
+   oddEvenSort implemented                   [1 pt.]
+   compiles                                  [0.5 pt.]
+   works as advertised                       [1 pt.]
+
+SimonGame.java
+   randomized array                          [1 pt.]
+   display/erase sequences                   [0 pt.]
+   check user's guess against array          [1 pt.]
+   increment letter count each iteration     [1 pt.]
+   play again message on incorrect entry     [1 pt.]
+   compiles                                  [0.5 pt.]
+   works as advertised                       [1 pt.]
+
+HuffmanCoding.java
+   count character occurrences               [0 pt.]
+   use some sort of queue to build tree      [0 pt.]
+   tree constructed correctly                [0 pt.]
+   message encoded correctly                 [0 pt.]
+   message decoded correctly                 [0 pt.]
+   compiles                                  [0 pt.]
+   works as advertised                       [0 pt.]
+
+Coding style                                 [1 pt.]
+Tests written to test all classes            [1 pt.]
+Headers in all files                         [1 pt.]
+
+Total credit is 13 for Sorter and either Simon or Huffman
+ extra credit is 7 points for other of Simon or Huffman
+-------------------------
+ Grand total is 20 points for all three
+
+you got 11 out of 13 which is 84.62% which is a solid B.
+

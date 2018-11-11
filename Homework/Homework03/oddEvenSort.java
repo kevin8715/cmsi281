@@ -24,7 +24,7 @@ public void insert(long value) // put element into array
 public void display() // displays array contents
 {
 for(int j=0; j<nElems; j++) // for each element,
-System.out.print(a[j] + " "); // display it System.out.println(“”);
+System.out.print(a[j] + " "); // display it System.out.println();
 }
 //-------------------------------------------------------------- 
 public void evenSort()
