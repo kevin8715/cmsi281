@@ -2,25 +2,27 @@
 // java program to run HashTable.java
 // to run this program: c> java HashTableApp
 //////////////////////////////////////////////////
-class HashTableApp
+class HashTableApp2
   {
   	public static void main(String[] args) 
   	{
-  		HashTable h = new HashTable(100);
-  		DataItem d = new DataItem("word");
-  		DataItem d1 = new DataItem("pie");
-  		DataItem d2 = new DataItem("lettuce");
-  		DataItem d3 = new DataItem("no");
-  		DataItem d4 = new DataItem("hummingbird");
-  		DataItem d5 = new DataItem("yes");
+  		HashTableFolding h = new HashTableFolding(2000);
+  		DataItem2 d = new DataItem2(82173);
+  		DataItem2 d1 = new DataItem2(817293);
+  		DataItem2 d2 = new DataItem2(23);
+  		DataItem2 d3 = new DataItem2(0);
+  		DataItem2 d4 = new DataItem2(-1);
+  		DataItem2 d5 = new DataItem2(7854);
+      DataItem2 d6 = new DataItem2(82173);
   		h.insert(d);
-  		h.insert(d);
+      h.insert(d);
   		h.insert(d1);
   		h.insert(d2);
   		h.insert(d3);
   		h.insert(d4);
   		h.insert(d5);
   		h.delete(d5);
+
   		h.displayTable();
   	}
 } // end class HashTableApp
