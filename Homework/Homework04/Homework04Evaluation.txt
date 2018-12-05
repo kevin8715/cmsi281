@@ -1,0 +1,76 @@
+
+Homework04 Evaluation
+======================
+
+Nice job on this assignment...
+Here are a couple of observations and comments:
+
+I'm taking it on faith that your PriorityQ and inOrderSearch
+submissions are the ones in Mo's repo, since you didn't submit
+your own versions.
+
+His version of the traversal only had one test, and I was expecting
+at least two, so you lose a point there.  The same can be said for
+your two programs of hashing.  There are far too few tests included
+here.  The methodology should be to do what you've done with them,
+THEN DELETE ALL THE ENTRIES AND DO IT AGAIN WITH DIFFERENT VALUES.
+Then, delete THOSE and do it again with a list of the SAME values,
+to test the linear probing.  Then, delete ONE of the values, list
+the hash table to see it's gone, the delete ANOTHER of the SAME
+values and list the hash table to ensure IT is gone.  This checks
+the insert and delete to make sure that the linear probing is, in
+fact, working the way it's supposed to.
+
+You can NEVER write enough tests....
+
+Kevin, don't be hesitant to compile and run your code.  Don't worry
+about getting me to approve it beforehand, just implement your code
+the way you've designed it and make it work.  We can always check
+out your algorithm and adjust it later [assuming you give yourself
+time to do that before it's due] but you'll find that you probably
+have a working idea before it ever gets to that point!
+
+You took the menus out of the hashers, so I have to take a couple
+of points off for those.
+
+scores:
+=============================
+Tree Traverser
+   inOrderTraverser method implemented       [1 pt.]
+   2 test sets with at least minimal nodes   [1 pt.] -1 point
+   produces proper sequences                 [2 pt.]
+
+Priority Queue
+   Queue creation works correctly            [1 pt.]
+   insertion works correctly                 [1 pt.]
+   isFull() works correctly                  [1 pt.]
+   isEmpty() works correctly                 [1 pt.]
+   removal() works correctly                 [1 pt.]
+   heap representation works correctly       [1 pt.]
+
+Linear Probing String Hasher
+   menu works                                [0 pt.]
+   shows contents                            [1 pt.]
+   hash table created correctly              [1 pt.]
+   insertion works correctly                 [1 pt.]
+   linear probing works correctly            [1 pt.]
+   deletion works correctly                  [1 pt.]
+   finding works correctly                   [1 pt.]
+
+Digit Folding Hasher
+   menu works                                [0 pt.]
+   shows contents                            [1 pt.]
+   insertion works correctly                 [1 pt.]
+   linear probing works correctly            [1 pt.]
+   deletion works correctly                  [1 pt.]
+   finding works correctly                   [1 pt.]
+
+Coding style                                 [1 pt.]
+Tests written to test all classes            [1 pt.]
+Headers in all files                         [4 pt.]
+
+Total credit is 30 points
+-------------------------
+
+you got 27 out of 30 which is 90.0% which is an A-minus
+
